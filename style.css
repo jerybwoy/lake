@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("alina-kacharho-86wR5GZJZdQ-unsplash.jpg") center/cover;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: white;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: black;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  border-radius: 5px;
+  color: coral;
+  background-color: aqua;
+}
+
+.mid {
+  color: #ffff;
+  text-align: center;
+  margin: auto;
+  padding: 17rem;
+  font-size: 79px;
+}
+
+i:hover {
+  color: chartreuse;
+}
+
+.aba:hover {
+  border-radius: 5px;
+}
+
+.join:hover {
+  color: red;
+}
+
+.us:hover {
+  color: orangered;
+}
+
+.for:hover {
+  color: aqua;
+}
+
+.a:hover {
+  color: chartreuse;
+}
+
+.family:hover {
+  color: blue;
+}
+
+.time:hover {
+  color: crimson;
+}
+
+.at:hover {
+  color: blueviolet;
+}
+
+.the:hover {
+  color: cyan;
+}
+
+.lake:hover {
+  color: seagreen;
+}
+
+.last:hover {
+  color: tomato;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
